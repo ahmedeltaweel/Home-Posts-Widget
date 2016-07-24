@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/**
+ * Widget
+ */
+
+.posts-grid {
+	list-style: none;
+	margin: 0;
+}
+
+.posts-grid .post-item {
+	margin-bottom: 38px;
+}
+
+.posts-grid .post-title {
+	position: relative;
+	margin: 0;
+	height: 220px;
+	background-size: cover;
+	background-position: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.posts-grid .post-link {
+	display: block;
+	position: relative;
+	color: #ffffff;
+	font-size: 20px;
+	height: 100%;
+}
+
+.posts-grid .post-link::before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	background: rgba(0, 0, 0, .25);
+}
+
+.posts-grid .post-title-holder {
+	display: block;
+	position: absolute;
+	left: 2em;
+	right: 2em;
+	bottom: 2em;
+}
